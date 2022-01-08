@@ -1,5 +1,8 @@
-myapp:
-  service: my-app
-  test: script1
-  test2: script2
-
+name: helloworld
+on: [push]
+jobs:
+  print-hello: 
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello Contributor!"
+      - run: echo "Thanks for pushing changes."
