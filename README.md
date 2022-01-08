@@ -32,8 +32,6 @@ Same as `JSON` objects are also present in YAML. But creating a object in `YAML`
 
 Objects in `YAML`:
 
----
-
 ```
 myapp:
     service: dapp-blockchain
