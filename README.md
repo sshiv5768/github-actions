@@ -20,8 +20,8 @@ There are various tools available in the market to create and deploy CI/CD pipli
 
 ## YAML - yet another markup language
 
-YAML is a data *serialization language* that is often used for writing configuaration files. It is much similar like **JSON**, but it is more readable than JSON.
+YAML is a data serialization language that is often used for writing configuaration files. It is much similar like `JSON`, but it is more readable than JSON.
 You can consider it as a superset of JSON which has easy syntax. There are no usual format symbols like braces, closing tags or sqaure brackets.
-It uses **.yml** or **.yaml** extension.
+It uses `.yml` or `.yaml` extension.
 
 We are going to use YAML for creating and applying logic for Github actions.
