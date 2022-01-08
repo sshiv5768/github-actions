@@ -57,3 +57,39 @@ myapp:
 
 ```
 
+### Strings and Comments
+
+For writing comments in `YAML` we use `#`.
+
+```
+# This is a comment.
+myapp:
+    services: dapp-blockchain
+    test: script1
+    array1: 
+        - key1: value1
+        - key2: value2
+
+```
+
+In `JSON` we use `""` to define a string but in `YAML` you can ignore it.
+
+```
+myapp:
+    services: hello world
+    test: script1
+
+```
+
+For multiline strings we use `|` symbol.
+
+```
+myapp:
+    services: |
+        i am shivlal
+        let's do some good stuff
+    test: script1
+
+```
+
+For more `YAML` specs you can refer to [yamlorg](https://yaml.org/)
