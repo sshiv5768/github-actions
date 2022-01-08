@@ -28,9 +28,7 @@ We are going to use YAML for creating and applying logic for Github actions.
 
 ### Objects in YAML
 
-Same as `JSON` objects are also present in YAML. But creating a object in `YAML` is very easy.
-
-Objects in `YAML`:
+Same as `JSON` objects are also present in YAML. But creating a object in `YAML` is easier. Indentation is required while you create a object.
 
 ```
 myapp:
