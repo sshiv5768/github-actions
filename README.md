@@ -14,6 +14,6 @@ There are various tools available in the market to create and deploy CI/CD pipli
 
 - Create a ".github" folder in your project folder.
 - Create a "workflows" folder in that folder.
-- Now if create any ".yml" file then it will be considered as a workflow.
+- Now if you create any ".yml" file then it will be considered as a workflow.
 
 
