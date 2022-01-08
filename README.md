@@ -40,3 +40,20 @@ myapp:
     test: script1
 
 ```
+
+### Array in YAML
+
+In `YAML` array syntax and working are same but with slight changes.
+
+We use `-` to start a new value in the array.
+
+```
+myapp:
+    services: dapp-blockchain
+    test: script1
+    array1: 
+        - key1: value1
+        - key2: value2
+
+```
+

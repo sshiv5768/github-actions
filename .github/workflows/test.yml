@@ -1,0 +1,5 @@
+myapp:
+  service: my-app
+  test: script1
+  test2: script2
+
