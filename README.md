@@ -17,3 +17,11 @@ There are various tools available in the market to create and deploy CI/CD pipli
 - If you create any ".yml" file in that workflows folder then it will be considered as a workflow.
 - Let's create "test.yml" file in that folder. This file is now considered as a Github action.
 - You can verify it by going to repository's action tab and you will see that new "test.yml" action listed there.
+
+## YAML - yet another markup language
+
+YAML is a data *serialization language* that is often used for writing configuaration files. It is much similar like **JSON**, but it is more readable than JSON.
+You can consider it as a superset of JSON which has easy syntax. There are no usual format symbols like braces, closing tags or sqaure brackets.
+It uses **.yml** or **.yaml** extension.
+
+We are going to use YAML for creating and applying logic for Github actions.
