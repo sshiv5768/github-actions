@@ -96,4 +96,4 @@ Before creating our your first Github action, let's know some basic keywords and
 
 | Syntax | Description | Example |
 | :-----:| :----------:| :-----: |
-
+| name   | Name of your workflow | name: test1 |
