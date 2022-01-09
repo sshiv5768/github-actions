@@ -18,7 +18,7 @@ There are various tools available in the market to create and deploy CI/CD pipli
 - Let's create `test.yml` file in that folder. This file is now considered as a Github action.
 - You can verify it by going to repository's action tab and you will see that new action is listed there.
 
-## YAML - yet another markup language
+## YAML - Yet Another Markup Language
 
 YAML is a data serialization language that is often used for writing configuaration files. It is much similar like `JSON`, but it is more readable.
 You can consider it as a superset of JSON which has easy syntax. There are no usual format symbols like braces, closing tags or sqaure brackets.
@@ -89,3 +89,11 @@ myapp:
 ```
 
 For more `YAML` specs you can refer to [yamlorg](https://yaml.org/)
+
+## Let's Create Hello World Action
+
+Before creating our your first Github action, let's know some basic keywords and properties of it.
+
+| Syntax | Description | Example |
+| :-----:| :----------:| :-----: |
+

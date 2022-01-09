@@ -6,4 +6,3 @@ jobs:
     steps:
       - run: echo "Hello Contributor!"
       - run: echo "Thanks for pushing changes."
-      - run: touch t1.txt
