@@ -132,7 +132,7 @@ Click on that and you will see a list of steps completed after you pushed your c
 
 ## Contribution Guideline & Support
 
-And that's all you need to create your first Github action. You can check this [link](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobs) for reference to workflow syntax.
+And that's all you need to create your first Github action. You can check this [link](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobs) for your reference to workflow syntax.
 
 You are always welcome to contribute this repo. Follow below steps to contribute.
 
