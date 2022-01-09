@@ -124,8 +124,26 @@ Remember we use `BASH` commands to describe our steps in workflow.
 
 Now come back to your repo and go to your `Actions` tab. You will see a workflow listed there with :heavy_check_mark: and last commit name. Click on that and you will see `print-hello` job.
 
-![Current Jobs](/public/images/jobs.png "Completed Jobs"). | ![Current Jobs](/public/images/steps.png "Completed Jobs").
+![Current Jobs](/public/images/jobs.png "Completed Jobs")
 
 Click on that and you will see a list of steps completed after you pushed your changes. Your desired output is also there in second step.
+
+![Current Jobs](/public/images/steps.png "Completed Steps")
+
+## Contribution Guideline & Support
+
+And that's all you need to create your first Github action. You can check this [link](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobs) for reference to workflow syntax.
+
+You are always welcome to contribute this repo. Follow below steps to contribute.
+
+- Raise an issue.
+
+- Create a Pull request.
+
+- Do :star: this repo to show your support.
+
+Yeah, that's it. Stay tuned with me :smiley:
+  
+
 
 
