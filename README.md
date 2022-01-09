@@ -92,9 +92,21 @@ For more `YAML` specs you can refer to [yamlorg](https://yaml.org/)
 
 ## Let's Create Hello World Action
 
-Before creating our your first Github action, let's know some basic keywords and properties of it.
+Open `test.yml` file and type below code in that file. We will look into code's each later.
 
-| Syntax | Description | Example |
-| :-----:| :----------:| :-----: |
-| name   | Name of your workflow | `name: test1` |
-| on     | On which Github event your workflow trigger| `on: push` or `on: [push, pull request]`|
+```
+name: helloworld
+on: [push]
+jobs:
+  print-hello: 
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello Contributor!"
+      - run: echo "Thanks for pushing changes."
+
+```
+
+
+
+
+
