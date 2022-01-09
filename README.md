@@ -105,6 +105,7 @@ jobs:
       - run: echo "Thanks for pushing changes."
 
 ```
+
 Now, let's do code breakdown. `name` as it suggest it gives you name of the workflow. Here our workflow name is `helloworld`.
 
 Next one is `on` which asks you the name of Github event that triggers the workflow. Here i gave `push` as a keyword value so whenever i push changes it will perform some jobs.
@@ -119,10 +120,15 @@ As we discussed in `YAML` about arrays, here `steps` is an array so we used `-` 
 
 Remember we use `BASH` commands to describe our steps in workflow.
 
-![Actions tab](/public/images/actions.png "Listed actions").
+![Actions tab](/public/images/actions.png "Listed workflows").
 
 Now come back to your repo and go to your `Actions` tab. You will see a workflow listed there with :heavy_check_mark: and last commit name. Click on that and you will see `print-hello` job.
 
+![Current Jobs](/public/images/jobs.png "Completed Jobs").
 
+Click on that and you will see a list of steps completed after you pushed your changes. Your desired output is also there in second step.
 
-
+<p float="left">
+  <img src="/public/images/jobs.png" width="100" />
+  <img src="/public/images/steps.png" width="100" />
+</p>
