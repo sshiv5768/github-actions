@@ -124,11 +124,8 @@ Remember we use `BASH` commands to describe our steps in workflow.
 
 Now come back to your repo and go to your `Actions` tab. You will see a workflow listed there with :heavy_check_mark: and last commit name. Click on that and you will see `print-hello` job.
 
-![Current Jobs](/public/images/jobs.png "Completed Jobs").
+![Current Jobs](/public/images/jobs.png "Completed Jobs"). | ![Current Jobs](/public/images/steps.png "Completed Jobs").
 
 Click on that and you will see a list of steps completed after you pushed your changes. Your desired output is also there in second step.
 
-<p float="left">
-  <img src="/public/images/jobs.png" width="100" />
-  <img src="/public/images/steps.png" width="100" />
-</p>
+
