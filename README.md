@@ -96,4 +96,5 @@ Before creating our your first Github action, let's know some basic keywords and
 
 | Syntax | Description | Example |
 | :-----:| :----------:| :-----: |
-| name   | Name of your workflow | name: test1 |
+| name   | Name of your workflow | `name: test1` |
+| on     | On which Github event your workflow trigger| `on: push` or `on: [push, pull request]`|
