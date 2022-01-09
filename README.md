@@ -92,7 +92,7 @@ For more `YAML` specs you can refer to [yamlorg](https://yaml.org/)
 
 ## Let's Create Hello World Action
 
-Open `test.yml` file and type below code in that file. We will look into code's each later.
+Open `test.yml` file and type below code in that file. We will look into code's each part later.
 
 ```
 name: helloworld
@@ -105,7 +105,23 @@ jobs:
       - run: echo "Thanks for pushing changes."
 
 ```
+Now, let's do code breakdown. `name` as it suggest it gives you name of the workflow. Here our workflow name is `helloworld`.
 
+Next one is `on` which asks you the name of Github event that triggers the workflow. Here i gave `push` as a keyword value so whenever i push changes it will perform some jobs.
+
+`jobs` descirbes the jobs or tasks that your workflow will perform on mentioned Github events. You can define multiple jobs in this section. Each job will run sequentially one by one.
+
+`print-hello` is our `job_id`. Each job runs in runner environment specified by `runs-on`.
+
+Now define your `steps` that you want to run in this job. Here we want to print 'Hello Contributor!' so `run: echo "Hello Contributor!"`.
+
+As we discussed in `YAML` about arrays, here `steps` is an array so we used `-` to add multiple job steps.
+
+Remember we use `BASH` commands to describe our steps in workflow.
+
+![Actions tab](/public/images/actions.png "Listed actions").
+
+Now come back to your repo and go to your `Actions` tab. You will see a workflow listed there with :heavy_check_mark: and last commit name. Click on that and you will see `print-hello` job.
 
 
 
